@@ -26,5 +26,7 @@ void loop() {
   int resultadoProducto = producto(number, OtherNumber);
   int resultadoDivision = division(number, OtherNumber);
 
+  Serial.println("Suma: " + String(resultadoSuma));
+
   while (!Serial.available()) {}
 }
