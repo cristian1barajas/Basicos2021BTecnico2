@@ -1,12 +1,13 @@
 #include <Arduino.h>
 #include <Operaciones.h>
 
+// Comentario de ejemplo para generar una segunda versión
+
 int number; // Lower Camel Case
 int OtherNumber; // Upper Camel Case
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Inicio de programa");
 }
 
 void loop() {
